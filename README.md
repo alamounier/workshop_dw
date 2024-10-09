@@ -9,5 +9,6 @@ graph TD
     C -->|Sim| D[Buscar dados históricos de preços]
     D --> E[Carregar dados no DataFrame consolidado]
     E --> F[Carregar no PostgreSQL]
-    F --> G[Transformar dados para análises futuras]
-    G --> H[Fim]
+    F --> G[Transformar dados para análises futuras com dbt]
+    G --> H[Dashboard no streamlit]
+    I --> J[Fim]
